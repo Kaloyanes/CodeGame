@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtBoxUsername = new TextBox();
+            txtBoxPassword = new TextBox();
             label1 = new Label();
             label2 = new Label();
             btnLogin = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtBoxUsername
             // 
-            textBox1.Location = new Point(257, 133);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(261, 23);
-            textBox1.TabIndex = 0;
+            txtBoxUsername.Location = new Point(257, 133);
+            txtBoxUsername.Name = "txtBoxUsername";
+            txtBoxUsername.Size = new Size(261, 23);
+            txtBoxUsername.TabIndex = 0;
             // 
-            // textBox2
+            // txtBoxPassword
             // 
-            textBox2.Location = new Point(257, 187);
-            textBox2.Name = "textBox2";
-            textBox2.PasswordChar = '*';
-            textBox2.Size = new Size(261, 23);
-            textBox2.TabIndex = 1;
+            txtBoxPassword.Location = new Point(257, 187);
+            txtBoxPassword.Name = "txtBoxPassword";
+            txtBoxPassword.PasswordChar = '*';
+            txtBoxPassword.Size = new Size(261, 23);
+            txtBoxPassword.TabIndex = 1;
             // 
             // label1
             // 
@@ -86,8 +86,8 @@
             Controls.Add(btnLogin);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtBoxPassword);
+            Controls.Add(txtBoxUsername);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -96,8 +96,8 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtBoxUsername;
+        private TextBox txtBoxPassword;
         private Label label1;
         private Label label2;
         private Button btnLogin;
