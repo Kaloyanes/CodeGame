@@ -1,0 +1,17 @@
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\bin\Debug\net8.0-windows\CodeGame.exe
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\bin\Debug\net8.0-windows\CodeGame.deps.json
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\bin\Debug\net8.0-windows\CodeGame.runtimeconfig.json
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\bin\Debug\net8.0-windows\CodeGame.dll
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\bin\Debug\net8.0-windows\CodeGame.pdb
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.Form1.resources
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.csproj.GenerateResource.cache
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.AssemblyInfoInputs.cache
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.AssemblyInfo.cs
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.csproj.CoreCompileInputs.cache
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.sourcelink.json
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.dll
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\refint\CodeGame.dll
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.pdb
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\CodeGame.genruntimeconfig.cache
+C:\Users\kaloy\Dev\CodeGame\CodeGame\CodeGame\obj\Debug\net8.0-windows\ref\CodeGame.dll
