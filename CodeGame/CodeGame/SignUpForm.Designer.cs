@@ -32,7 +32,7 @@
             label1 = new Label();
             txtBoxPassword = new TextBox();
             txtBoxUsername = new TextBox();
-            button1 = new Button();
+            btnSignUp = new Button();
             SuspendLayout();
             // 
             // label2
@@ -68,22 +68,22 @@
             txtBoxUsername.Size = new Size(261, 23);
             txtBoxUsername.TabIndex = 4;
             // 
-            // button1
+            // btnSignUp
             // 
-            button1.Location = new Point(352, 279);
-            button1.Name = "button1";
-            button1.Size = new Size(96, 23);
-            button1.TabIndex = 8;
-            button1.Text = "Register";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnSignUp.Location = new Point(352, 279);
+            btnSignUp.Name = "btnSignUp";
+            btnSignUp.Size = new Size(96, 23);
+            btnSignUp.TabIndex = 8;
+            btnSignUp.Text = "Register";
+            btnSignUp.UseVisualStyleBackColor = true;
+            btnSignUp.Click += btnSignup_Click;
             // 
             // SignUpForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(btnSignUp);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtBoxPassword);
@@ -100,6 +100,6 @@
         private Label label1;
         private TextBox txtBoxPassword;
         private TextBox txtBoxUsername;
-        private Button button1;
+        private Button btnSignUp;
     }
 }

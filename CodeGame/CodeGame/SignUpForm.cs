@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,11 +19,45 @@ namespace CodeGame
         }
 
         // Register Function that will accept username and password and register into the game and directly login in 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSignup_Click(object sender, EventArgs e)
         {
-            // Getting the username and password from the textboxes
-            string username = txtBoxUsername.Text;
-            string password = txtBoxPassword.Text;
+            using (var context = new UserContext())
+            {
+                var username = txtBoxUsername.Text;
+                var password = txtBoxPassword.Text;
+
+                if (context.Users.Any(u => u.Username == username))
+                {
+                    MessageBox.Show("Username already exists.");
+                    return;
+                }
+
+                var user = new User
+                {
+                    Username = username,
+                    PasswordHash = HashPassword(password)
+                };
+
+                context.Users.Add(user);
+                context.SaveChanges();
+
+                MessageBox.Show("Signup successful!");
+                this.Close();
+            }
+        }
+
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                var builder = new StringBuilder();
+                foreach (var b in bytes)
+                {
+                    builder.Append(b.ToString("x2"));
+                }
+                return builder.ToString();
+            }
         }
     }
 }
